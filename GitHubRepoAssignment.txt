@@ -1,0 +1,17 @@
+www.github.com
+*clicked plus sign for new repository*
+opened Terminal
+cd desktop
+md GitHubRepoAssignment
+cd GitHubRepoAssignment
+git init
+copy NUL readme.md
+git status
+git add .
+git commit -m "created a readme file"
+copy NUL GitHubRepoAssignment.txt
+GitHubRepoAssignment.txt
+git add .
+git commit -m "created GitHubRepoAssignment document and added steps taken"
+git remote add origin https://github.com/LoveRoseGoddess/GitHubRepoAssignment.git
+git push -u origin master
